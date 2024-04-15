@@ -26,10 +26,13 @@ Besides, you need to fillin your openai key:
 ```
 and set the use_paid_API as True to call the API. 
 ```python
-    auto_summary_ppt(abs_file, save_path, sentence_cnt,use_paid_API=False)
+    auto_summary_ppt(abs_file, save_path,sentence_cnt,use_paid_API=False)
 ```
 
-
+At last, just run the command to generate the script, which will be saved in "{save_path}/chatGPT_API_result.txt".
+```code
+python ppt_script_gen.py
+```
 
 # Requirements
 ```code
